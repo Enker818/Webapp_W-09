@@ -35,7 +35,7 @@ export const auth = betterAuth({
     autoSignIn: true,
     // Lengde slår kompleksitet (NIST 2017). Må matche PASSWORD_MIN i
     // src/auth/schemas.ts og minLength på passordfeltet i skjemaene.
-    minPasswordLength: 12,
+    minPasswordLength: 5,
   },
 
   session: {

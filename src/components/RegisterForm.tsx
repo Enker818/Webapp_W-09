@@ -101,7 +101,7 @@ return (<form onSubmit={onSubmit} className="mt-4 flex flex-col">
             name="password"
             type="password"
             autoComplete="new-password"
-            minLength={12}
+            minLength={5}
             required
             aria-describedby="password-hint"
             className="mt-1 h-11 rounded-sm bg-neutral-200 px-3 text-neutral-900 outline-none focus:ring-2 focus:ring-white"
